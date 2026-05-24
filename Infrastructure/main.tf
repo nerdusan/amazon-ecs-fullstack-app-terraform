@@ -21,7 +21,7 @@ provider "aws" {
 
 # ------- Random numbers intended to be used as unique identifiers for resources -------
 resource "random_id" "RANDOM_ID" {
-  byte_length = "2"
+  byte_length = "4"
 }
 
 # ------- Account ID -------
